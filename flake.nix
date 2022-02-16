@@ -18,11 +18,11 @@
             src = pkgs.fetchFromGitHub {
               owner = "envato";
               repo = "iamy";
-              rev = "v${version}";
-              sha256 = null;
+              rev = "56898bc83cd7624d51189cd055ab7b024fa40e7d";
+              sha256 = "sha256-VvveRJogeNnwvYtyqa7f8n2s4FLQoZJiLMJo5Przp18=";
             };
           
-            vendorSha256 = null;
+            vendorSha256 = "sha256-joVNR5pqkYNd9HQ4retqvj1RfdkluSdsfrSVnMtLans=";
 
             proxyVendor = true;
             
@@ -34,7 +34,7 @@
           
             meta = with pkgs.lib; {
               description = "A cli tool for importing and exporting AWS IAM configuration to YAML files";
-              homepage = "https://github.com/99designs/iamy";
+              homepage = "https://github.com/envato/iamy";
               license = licenses.mit;
             };
           };
