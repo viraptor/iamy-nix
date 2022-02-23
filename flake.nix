@@ -13,12 +13,12 @@
         in rec {
           defaultPackage = pkgs.buildGoModule rec {
             pname = "iamy";
-            version = "3.3.0";
+            version = "4.0.0";
           
             src = pkgs.fetchFromGitHub {
               owner = "envato";
               repo = "iamy";
-              rev = "56898bc83cd7624d51189cd055ab7b024fa40e7d";
+              rev = "v4.0.0";
               sha256 = "sha256-VvveRJogeNnwvYtyqa7f8n2s4FLQoZJiLMJo5Przp18=";
             };
           
